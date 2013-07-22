@@ -1,10 +1,6 @@
 {-# LANGUAGE BangPatterns #-}
 {-# LANGUAGE CPP, ForeignFunctionInterface #-}
 
--- Compile with:
--- ghc --make -O2 -funbox-strict-fields -threaded -rtsopts SimpleServer.hs 
- 
-
 import Control.Concurrent (forkIO, threadWaitRead, threadWaitWrite)
 import Control.Monad (when, forever, liftM)
 import qualified Data.ByteString as B
