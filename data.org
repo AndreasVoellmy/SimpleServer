@@ -1,0 +1,24 @@
+Run with "program 8080 +RTS -A32m -N16"
+
+| Program                 | num cores | throughput (requests/second) |
+| SimpleServer            |         1 |                        92219 |
+| SimpleServer            |         2 |                       157537 |
+| SimpleServer            |         4 |                       311129 |
+| SimpleServer            |         8 |                       486495 |
+| SimpleServer            |        16 |                       663337 |
+| SimpleServerByteString  |         1 |                        80627 |
+| SimpleServerByteString  |         2 |                       155878 |
+| SimpleServerByteString  |         4 |                       247279 |
+| SimpleServerByteString  |         8 |                       475295 |
+| SimpleServerByteString  |        16 |                       611583 |
+| SimpleServerByteString2 |         1 |                        80366 |
+| SimpleServerByteString2 |         2 |                       152609 |
+| SimpleServerByteString2 |         4 |                       313029 |
+| SimpleServerByteString2 |         8 |                       489258 |
+| SimpleServerByteString2 |        16 |                       654828 |
+| SimpleServerByteString3 |         1 |                        79119 |
+| SimpleServerByteString3 |         2 |                       129437 |
+| SimpleServerByteString3 |         4 |                       240103 |
+| SimpleServerByteString3 |         8 |                       393541 |
+| SimpleServerByteString3 |        16 |                       505620 |
+
