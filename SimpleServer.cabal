@@ -19,3 +19,8 @@ executable SimpleServer
   main-is: SimpleServer.hs
   build-depends:       base, bytestring, network
   ghc-options: -O2 -threaded -rtsopts -funbox-strict-fields
+
+executable SimpleServerByteString
+  main-is: SimpleServerByteString.hs
+  build-depends:       base, bytestring, network
+  ghc-options: -O2 -threaded -rtsopts -funbox-strict-fields
