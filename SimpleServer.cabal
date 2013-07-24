@@ -29,3 +29,8 @@ executable SimpleServerByteString2
   main-is: SimpleServerByteString2.hs
   build-depends:       base, bytestring, network
   ghc-options: -O2 -threaded -rtsopts -funbox-strict-fields
+
+executable SimpleServerByteString3
+  main-is: SimpleServerByteString3.hs
+  build-depends:       base, bytestring, network
+  ghc-options: -O2 -threaded -rtsopts -funbox-strict-fields
